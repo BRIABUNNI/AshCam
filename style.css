@@ -1,0 +1,109 @@
+body{
+	color: #E07F8B;
+	font-family: 'Signika';
+  	font-style: normal;
+  	font-weight: 400
+	background-size:100%;
+	position:center; 
+	background-image: url(images/gifs/flowerloop.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+p{
+	border: 3px inset; 
+	font-family: Vladimir-Script;
+	width: 60%; 
+	padding: 15px;
+	display: inset;
+	background-color: #F9D354;
+	font-size:100%;
+}
+
+header {
+	background-image: url(images/backgrounds/Background1.jpg);
+	font-family: Vladimir-Script;
+	padding-top: 10px; 
+	background-size:100%;
+	font-family: Vladimir-Script;
+	background-color: #F9D354;
+}
+
+header h1 {
+	text-align: center;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 70px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 44px;
+	background-color: #F9D354;
+}
+h2 {
+	background-color: #F9D354;
+}
+nav {
+	display: outset;
+	background-color:#819FF7; 
+	padding: 1px;
+}
+nav ul {
+	display: outset;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 5px;
+	font-style: 20px
+
+}
+
+li a:link, li a:active, li a:hover, li a:visited
+	color: pink;
+	text-decoration: none;
+}
+
+footer {
+	font-family: Vladimir-Script;
+	clear: both;
+	text-align: center;
+	background-color: #5E0035;  
+	padding:10px;
+}
+
+aside {
+	font-family: Vladimir-Script;
+	padding: 10px;
+	width: 35%;
+	float: right;
+	display: inset;
+	background-color: #E07F8B;  
+	padding:10px;
+	margin-left: 206px
+}
+
+div.background {
+  background: url(images/backgrounds/background.jpg);
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+ul div {
+	display: inline-block;
+	margin: 5px;
+	font-style: 20px;
+}
